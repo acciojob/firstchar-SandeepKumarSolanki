@@ -1,11 +1,11 @@
 function firstChar(text) {
   // your code here
-	text.trim();
-	if(text.length > 0){
-		return text[0];
-	}else{
-		return '';
+	for(let t of text){
+		if(t >= "A" && t <= "Z" || t >= "a" && t <= "z"){
+			return t;
+		}
 	}
+	return '';
 }
 
 
