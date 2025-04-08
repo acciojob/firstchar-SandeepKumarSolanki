@@ -5,9 +5,11 @@ function firstChar(text) {
 		return '';
 	}
 
-	
-	
-	return text[0];
+	for(let t of text){
+		if(t >= 'a' && t <= 'z' || t >= 'A' && t <= 'Z'){
+			return t;
+		}
+	}
 }
 
 
