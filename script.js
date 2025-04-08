@@ -3,13 +3,15 @@ function firstChar(text) {
 	text.trim();
 	if(text.length === 0){
 		return '';
-	}
-
-	for(let t of text){
+	}else{
+		for(let t of text){
 		if(t >= 'a' && t <= 'z' || t >= 'A' && t <= 'Z'){
 			return t;
 		}
 	}
+	}
+
+	
 }
 
 
