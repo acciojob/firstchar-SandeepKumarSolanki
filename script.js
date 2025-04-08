@@ -1,16 +1,13 @@
 function firstChar(text) {
   // your code here
-	// text.trim();
-	// if(text.length === 0){
-	// 	return '';
-	// }
-	for(let t of text){
-		if(t != ' ' || t != ''){
-			return t;
-		}
+	text.trim();
+	if(text.length === 0){
+		return '';
 	}
+
 	
-	return '';
+	
+	return text[0];
 }
 
 
