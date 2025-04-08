@@ -5,13 +5,13 @@ function firstChar(text) {
 		return '';
 	}else{
 		for(let t of text){
-		if(t >= 'a' && t <= 'z' || t >= 'A' && t <= 'Z'){
-			return t;
+			if(t >= 'a' && t <= 'z' || t >= 'A' && t <= 'Z'){
+				return t;
+			}
 		}
 	}
-	}
 
-	
+	return '';
 }
 
 
